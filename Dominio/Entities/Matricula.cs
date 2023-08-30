@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 
 namespace Dominio.Entities;
-    public class Matricula: BaseEntity
+    public class Matricula
     {
         public int IdPersonaFK { get; set; }
         public Persona? Persona { get; set; }
