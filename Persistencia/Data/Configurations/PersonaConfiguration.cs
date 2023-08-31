@@ -26,6 +26,7 @@ namespace Persistencia.Data.Configurations;
         builder.HasOne(p => p.Region)
             .WithMany(p =>p.Personas)
             .HasForeignKey(p => p.IdRegionFK);
+        
 
     }
 }

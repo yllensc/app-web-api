@@ -21,3 +21,4 @@ D:\DATOS DE USUARIO\Documents\Campus\c#\app-web-api\Dominio\obj\Debug\net7.0\Dom
 D:\DATOS DE USUARIO\Documents\Campus\c#\app-web-api\Dominio\obj\Debug\net7.0\refint\Dominio.dll
 D:\DATOS DE USUARIO\Documents\Campus\c#\app-web-api\Dominio\obj\Debug\net7.0\Dominio.pdb
 D:\DATOS DE USUARIO\Documents\Campus\c#\app-web-api\Dominio\obj\Debug\net7.0\ref\Dominio.dll
+C:\Users\APT01-61\Documents\app-web-api\Dominio\obj\Debug\net7.0\Dominio.csproj.AssemblyReference.cache

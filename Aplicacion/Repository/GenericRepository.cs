@@ -41,7 +41,7 @@ namespace Aplicacion.Repository;
 
     public virtual async Task<T> GetByIdAsync(int id)
     {
-        return  await _context.Set<T>().FindAsync(id) ;
+        return await _context.Set<T>().FindAsync(id);
     }
 
     public virtual Task<T> GetByIdAsync(string id)

@@ -1,13 +1,10 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Reflection;
-using System.Threading.Tasks;
 using Dominio.Entities;
 using Microsoft.EntityFrameworkCore;
 
+
 namespace Persistencia;
-    public class AppWebApiContext : DbContext
+public class AppWebApiContext : DbContext
     {
         public AppWebApiContext(DbContextOptions<AppWebApiContext> options): base(options){
 
