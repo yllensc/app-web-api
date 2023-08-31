@@ -15,3 +15,20 @@ C:\Users\APT01-61\Documents\app-web-api\Aplicacion\obj\Debug\net7.0\Aplicacion.d
 C:\Users\APT01-61\Documents\app-web-api\Aplicacion\obj\Debug\net7.0\refint\Aplicacion.dll
 C:\Users\APT01-61\Documents\app-web-api\Aplicacion\obj\Debug\net7.0\Aplicacion.pdb
 c:\Users\APT01-61\Documents\app-web-api\Aplicacion\obj\Debug\net7.0\ref\Aplicacion.dll
+D:\DATOS DE USUARIO\Documents\Campus\c#\app-web-api\Aplicacion\bin\Debug\net7.0\Aplicacion.deps.json
+D:\DATOS DE USUARIO\Documents\Campus\c#\app-web-api\Aplicacion\bin\Debug\net7.0\Aplicacion.dll
+D:\DATOS DE USUARIO\Documents\Campus\c#\app-web-api\Aplicacion\bin\Debug\net7.0\Aplicacion.pdb
+D:\DATOS DE USUARIO\Documents\Campus\c#\app-web-api\Aplicacion\bin\Debug\net7.0\Dominio.dll
+D:\DATOS DE USUARIO\Documents\Campus\c#\app-web-api\Aplicacion\bin\Debug\net7.0\Persistencia.dll
+D:\DATOS DE USUARIO\Documents\Campus\c#\app-web-api\Aplicacion\bin\Debug\net7.0\Dominio.pdb
+D:\DATOS DE USUARIO\Documents\Campus\c#\app-web-api\Aplicacion\bin\Debug\net7.0\Persistencia.pdb
+D:\DATOS DE USUARIO\Documents\Campus\c#\app-web-api\Aplicacion\obj\Debug\net7.0\Aplicacion.csproj.AssemblyReference.cache
+D:\DATOS DE USUARIO\Documents\Campus\c#\app-web-api\Aplicacion\obj\Debug\net7.0\Aplicacion.GeneratedMSBuildEditorConfig.editorconfig
+D:\DATOS DE USUARIO\Documents\Campus\c#\app-web-api\Aplicacion\obj\Debug\net7.0\Aplicacion.AssemblyInfoInputs.cache
+D:\DATOS DE USUARIO\Documents\Campus\c#\app-web-api\Aplicacion\obj\Debug\net7.0\Aplicacion.AssemblyInfo.cs
+D:\DATOS DE USUARIO\Documents\Campus\c#\app-web-api\Aplicacion\obj\Debug\net7.0\Aplicacion.csproj.CoreCompileInputs.cache
+D:\DATOS DE USUARIO\Documents\Campus\c#\app-web-api\Aplicacion\obj\Debug\net7.0\Aplicacion.csproj.CopyComplete
+D:\DATOS DE USUARIO\Documents\Campus\c#\app-web-api\Aplicacion\obj\Debug\net7.0\Aplicacion.dll
+D:\DATOS DE USUARIO\Documents\Campus\c#\app-web-api\Aplicacion\obj\Debug\net7.0\refint\Aplicacion.dll
+D:\DATOS DE USUARIO\Documents\Campus\c#\app-web-api\Aplicacion\obj\Debug\net7.0\Aplicacion.pdb
+D:\DATOS DE USUARIO\Documents\Campus\c#\app-web-api\Aplicacion\obj\Debug\net7.0\ref\Aplicacion.dll

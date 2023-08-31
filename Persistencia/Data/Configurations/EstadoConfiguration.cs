@@ -5,9 +5,9 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
 namespace Persistencia.Data.Configurations;
-    public class EstadoConfiguration : IEntityTypeConfiguration<Estado>
+    public class EstadoConfiguration : IEntityTypeConfiguration<Estado> //esta interfaz define cómo se van a mapear los datos de x entidad
 {
-    public void Configure(EntityTypeBuilder<Estado> builder)
+    public void Configure(EntityTypeBuilder<Estado> builder) // Configure es un método de la interfaz. Esta clase es para establecer propiedades, configuración de relaciones, índices, restricciones
     {
         builder.ToTable("Estado");
         builder.Property(e => e.NombreEstado)

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "GClw8MMWMeZZAkEHH2AheqgCgQ2UF4rX2zbPEaAc0SyLTm8cJhnPh/GOei7RO08NpmnrRL6Usgn9etFHdYKP4g==",
+  "dgSpecHash": "egSO79pzhmGQKtAd14QMSI6n+NBQkwcRuIZCLsCkbKfM+yrXd5U6kIixzWVAeRRLq+KUjfLGFC26oXg1mS2QAA==",
   "success": true,
-  "projectFilePath": "d:\\DATOS DE USUARIO\\Documents\\Campus\\c#\\app-web-api\\Persistencia\\Persistencia.csproj",
+  "projectFilePath": "D:\\DATOS DE USUARIO\\Documents\\Campus\\c#\\app-web-api\\Persistencia\\Persistencia.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Usuario\\.nuget\\packages\\fluentvalidation\\11.5.1\\fluentvalidation.11.5.1.nupkg.sha512",
     "C:\\Users\\Usuario\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.3.0\\fluentvalidation.aspnetcore.11.3.0.nupkg.sha512",

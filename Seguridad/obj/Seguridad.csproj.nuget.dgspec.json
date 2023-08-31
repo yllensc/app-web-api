@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "d:\\DATOS DE USUARIO\\Documents\\Campus\\c#\\app-web-api\\Seguridad\\Seguridad.csproj": {}
+    "D:\\DATOS DE USUARIO\\Documents\\Campus\\c#\\app-web-api\\Seguridad\\Seguridad.csproj": {}
   },
   "projects": {
-    "d:\\DATOS DE USUARIO\\Documents\\Campus\\c#\\app-web-api\\Seguridad\\Seguridad.csproj": {
+    "D:\\DATOS DE USUARIO\\Documents\\Campus\\c#\\app-web-api\\Seguridad\\Seguridad.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\DATOS DE USUARIO\\Documents\\Campus\\c#\\app-web-api\\Seguridad\\Seguridad.csproj",
+        "projectUniqueName": "D:\\DATOS DE USUARIO\\Documents\\Campus\\c#\\app-web-api\\Seguridad\\Seguridad.csproj",
         "projectName": "Seguridad",
-        "projectPath": "d:\\DATOS DE USUARIO\\Documents\\Campus\\c#\\app-web-api\\Seguridad\\Seguridad.csproj",
+        "projectPath": "D:\\DATOS DE USUARIO\\Documents\\Campus\\c#\\app-web-api\\Seguridad\\Seguridad.csproj",
         "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "d:\\DATOS DE USUARIO\\Documents\\Campus\\c#\\app-web-api\\Seguridad\\obj\\",
+        "outputPath": "D:\\DATOS DE USUARIO\\Documents\\Campus\\c#\\app-web-api\\Seguridad\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",

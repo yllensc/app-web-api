@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "J5j6G4OCvwja99U3P+yEZ1NozdMWWrfUlzUFRCQ2K40kgQddPdWrWEUOxLYCpW28q6hK1hvsKQ0KzUfDTaNRVg==",
+  "dgSpecHash": "IG2Mo+MBqHLCls/B6S8Dn/QCt9PEWbSkZgi+u6yscG415lFurOhdwcQRFdPDVlhW/fBAIkI8Qn+Z1luqCr7YeQ==",
   "success": true,
-  "projectFilePath": "d:\\DATOS DE USUARIO\\Documents\\Campus\\c#\\app-web-api\\Seguridad\\Seguridad.csproj",
+  "projectFilePath": "D:\\DATOS DE USUARIO\\Documents\\Campus\\c#\\app-web-api\\Seguridad\\Seguridad.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Usuario\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\Usuario\\.nuget\\packages\\microsoft.identitymodel.abstractions\\6.32.2\\microsoft.identitymodel.abstractions.6.32.2.nupkg.sha512",

@@ -9,7 +9,7 @@ namespace Dominio.Entities;
         public string? Nombre { get; set; }
         public string? Apellido { get; set;}
         public string? Direccion { get; set; }
-        public string? IdGeneroFK { get; set; }
+        public int? IdGeneroFK { get; set; }
         public Genero? Genero { get; set; }
         public int TipoPersonaIdFK { get; set; }
         public TipoPersona? TipoPersona { get; set; }

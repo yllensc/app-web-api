@@ -9,3 +9,15 @@ C:\Users\APT01-61\Documents\app-web-api\Dominio\obj\Debug\net7.0\Dominio.dll
 C:\Users\APT01-61\Documents\app-web-api\Dominio\obj\Debug\net7.0\refint\Dominio.dll
 C:\Users\APT01-61\Documents\app-web-api\Dominio\obj\Debug\net7.0\Dominio.pdb
 C:\Users\APT01-61\Documents\app-web-api\Dominio\obj\Debug\net7.0\ref\Dominio.dll
+D:\DATOS DE USUARIO\Documents\Campus\c#\app-web-api\Dominio\bin\Debug\net7.0\Dominio.deps.json
+D:\DATOS DE USUARIO\Documents\Campus\c#\app-web-api\Dominio\bin\Debug\net7.0\Dominio.dll
+D:\DATOS DE USUARIO\Documents\Campus\c#\app-web-api\Dominio\bin\Debug\net7.0\Dominio.pdb
+D:\DATOS DE USUARIO\Documents\Campus\c#\app-web-api\Dominio\obj\Debug\net7.0\Dominio.csproj.AssemblyReference.cache
+D:\DATOS DE USUARIO\Documents\Campus\c#\app-web-api\Dominio\obj\Debug\net7.0\Dominio.GeneratedMSBuildEditorConfig.editorconfig
+D:\DATOS DE USUARIO\Documents\Campus\c#\app-web-api\Dominio\obj\Debug\net7.0\Dominio.AssemblyInfoInputs.cache
+D:\DATOS DE USUARIO\Documents\Campus\c#\app-web-api\Dominio\obj\Debug\net7.0\Dominio.AssemblyInfo.cs
+D:\DATOS DE USUARIO\Documents\Campus\c#\app-web-api\Dominio\obj\Debug\net7.0\Dominio.csproj.CoreCompileInputs.cache
+D:\DATOS DE USUARIO\Documents\Campus\c#\app-web-api\Dominio\obj\Debug\net7.0\Dominio.dll
+D:\DATOS DE USUARIO\Documents\Campus\c#\app-web-api\Dominio\obj\Debug\net7.0\refint\Dominio.dll
+D:\DATOS DE USUARIO\Documents\Campus\c#\app-web-api\Dominio\obj\Debug\net7.0\Dominio.pdb
+D:\DATOS DE USUARIO\Documents\Campus\c#\app-web-api\Dominio\obj\Debug\net7.0\ref\Dominio.dll

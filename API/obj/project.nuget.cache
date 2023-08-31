@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "OvJfnstXgS7PXbis5VQY6ft+HtaimKY7RYtzTMCxvkqLmOyop8fdDgxZOPKoR/uk7BGiQqgXHTqiYMDokPSO5A==",
+  "dgSpecHash": "ew9Z0BoMB4mE9aou2LPhEngAqm8ye7R+H+grGPy/TPXgTQqiI88U10z3inFO51Bwxp2I+7v1zDPtYkz/qyoAyw==",
   "success": true,
-  "projectFilePath": "d:\\DATOS DE USUARIO\\Documents\\Campus\\c#\\app-web-api\\API\\API.csproj",
+  "projectFilePath": "D:\\DATOS DE USUARIO\\Documents\\Campus\\c#\\app-web-api\\API\\API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Usuario\\.nuget\\packages\\aspnetcoreratelimit\\5.0.0\\aspnetcoreratelimit.5.0.0.nupkg.sha512",
     "C:\\Users\\Usuario\\.nuget\\packages\\fluentvalidation\\11.5.1\\fluentvalidation.11.5.1.nupkg.sha512",
