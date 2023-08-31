@@ -23,8 +23,6 @@ namespace Persistencia;
         public DbSet<TrainerSalon> TrainersSalones { get; set;}
 
         protected override void OnModelCreating(ModelBuilder modelBuilder){
-            modelBuilder.Entity<Matricula>().HasKey(p => new{p.IdPersonaFK, p.IdSalonFK});
-            modelBuilder.Entity<TrainerSalon>().HasKey(p => new{p.IdPersonaFK, p.IdSalonFK});
             base.OnModelCreating(modelBuilder);
             modelBuilder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());
         }

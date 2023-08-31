@@ -1,12 +1,19 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+using Dominio.Entities;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
-namespace Persistencia.Data.Configurations
+namespace Persistencia.Data.Configurations;
+    public class SalonConfiguration: IEntityTypeConfiguration<Salon>
 {
-    public class SalonConfiguration
+    public void Configure(EntityTypeBuilder<Salon> builder)
     {
-        
+        builder.ToTable("Salon");
+        builder.Property(s => s.NombreSalon)
+            .IsRequired()
+            .HasMaxLength(50);
+        builder.HasIndex(s => s.NombreSalon)
+            .IsUnique();
+        builder.Property(s => s.Capacidad)
+            .HasColumnType("int");
     }
 }
