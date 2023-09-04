@@ -11,7 +11,6 @@ namespace API.Profiles
             CreateMap<Pais, PaisDto>()
             .ForMember(dest => dest.PaisId, opt => opt.MapFrom(src => src.Id ))
             .ForMember(dest => dest.PaisNombre, opt => opt.MapFrom(src => src.NombrePais))
-            .ForMember(dest => dest.Departamentos, opt => opt.MapFrom(src => src.Estados))
             .ReverseMap();
             CreateMap<Estado, EstadoDto>()
             .ForMember(dest => dest.EstadoId, opt => opt.MapFrom(src => src.Id))
@@ -23,6 +22,11 @@ namespace API.Profiles
             .ForMember(dest => dest.RegionId, opt => opt.MapFrom(src => src.Id))
             .ForMember(dest => dest.RegionNombre, opt => opt.MapFrom(src => src.NombreRegion))
             .ForMember(dest => dest.IDepFk, opt => opt.MapFrom(src => src.IdEstadoFK))
+            .ReverseMap();
+            CreateMap<Pais, PaisAllDataDto>()
+            .ForMember(dest => dest.PaisId, opt => opt.MapFrom(src => src.Id ))
+            .ForMember(dest => dest.PaisNombre, opt => opt.MapFrom(src => src.NombrePais))
+            .ForMember(dest => dest.Departamentos, opt => opt.MapFrom(src => src.Estados))
             .ReverseMap();
         }
     }

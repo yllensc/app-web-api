@@ -126,8 +126,8 @@
               "D:\\DATOS DE USUARIO\\Documents\\Campus\\c#\\app-web-api\\Dominio\\Dominio.csproj": {
                 "projectPath": "D:\\DATOS DE USUARIO\\Documents\\Campus\\c#\\app-web-api\\Dominio\\Dominio.csproj"
               },
-              "d:\\DATOS DE USUARIO\\Documents\\Campus\\c#\\app-web-api\\Persistencia\\Persistencia.csproj": {
-                "projectPath": "d:\\DATOS DE USUARIO\\Documents\\Campus\\c#\\app-web-api\\Persistencia\\Persistencia.csproj"
+              "D:\\DATOS DE USUARIO\\Documents\\Campus\\c#\\app-web-api\\Persistencia\\Persistencia.csproj": {
+                "projectPath": "D:\\DATOS DE USUARIO\\Documents\\Campus\\c#\\app-web-api\\Persistencia\\Persistencia.csproj"
               }
             }
           }
@@ -230,14 +230,14 @@
         }
       }
     },
-    "d:\\DATOS DE USUARIO\\Documents\\Campus\\c#\\app-web-api\\Persistencia\\Persistencia.csproj": {
+    "D:\\DATOS DE USUARIO\\Documents\\Campus\\c#\\app-web-api\\Persistencia\\Persistencia.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\DATOS DE USUARIO\\Documents\\Campus\\c#\\app-web-api\\Persistencia\\Persistencia.csproj",
+        "projectUniqueName": "D:\\DATOS DE USUARIO\\Documents\\Campus\\c#\\app-web-api\\Persistencia\\Persistencia.csproj",
         "projectName": "Persistencia",
-        "projectPath": "d:\\DATOS DE USUARIO\\Documents\\Campus\\c#\\app-web-api\\Persistencia\\Persistencia.csproj",
+        "projectPath": "D:\\DATOS DE USUARIO\\Documents\\Campus\\c#\\app-web-api\\Persistencia\\Persistencia.csproj",
         "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "d:\\DATOS DE USUARIO\\Documents\\Campus\\c#\\app-web-api\\Persistencia\\obj\\",
+        "outputPath": "D:\\DATOS DE USUARIO\\Documents\\Campus\\c#\\app-web-api\\Persistencia\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",

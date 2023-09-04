@@ -5,6 +5,8 @@ using Dominio.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 
 namespace API.Controllers;
+    [ApiVersion("1.0")]
+    [ApiVersion("1.1")]
     public class PaisController : BaseApiController
 {
     private readonly IUnitOfWork unitOfWork;
@@ -17,6 +19,7 @@ namespace API.Controllers;
     }
 
     [HttpGet]
+    [MapToApiVersion("1.0")]
     [ProducesResponseType(StatusCodes.Status200OK)]
     [ProducesResponseType(StatusCodes.Status400BadRequest)]
     public async Task<ActionResult<IEnumerable<PaisDto>>> Get()
@@ -27,6 +30,7 @@ namespace API.Controllers;
 
     
     [HttpGet("{id}")]
+    [MapToApiVersion("1.0")]
     [ProducesResponseType(StatusCodes.Status200OK)]
     [ProducesResponseType(StatusCodes.Status400BadRequest)]
     [ProducesResponseType(StatusCodes.Status404NotFound)]
@@ -37,6 +41,31 @@ namespace API.Controllers;
             return NotFound();
         }
         return this._mapper.Map<PaisDto>(pais);
+    }
+
+    [HttpGet]
+    [MapToApiVersion("1.1")]
+    [ProducesResponseType(StatusCodes.Status200OK)]
+    [ProducesResponseType(StatusCodes.Status400BadRequest)]
+    public async Task<ActionResult<IEnumerable<PaisAllDataDto>>> GetAll()
+    {
+        var paises = await this.unitOfWork.Paises.GetAllAsync();
+        return this._mapper.Map<List<PaisAllDataDto>>(paises);
+    }
+
+    
+    [HttpGet("{id}")]
+    [MapToApiVersion("1.1")]
+    [ProducesResponseType(StatusCodes.Status200OK)]
+    [ProducesResponseType(StatusCodes.Status400BadRequest)]
+    [ProducesResponseType(StatusCodes.Status404NotFound)]
+    public async Task<ActionResult<PaisAllDataDto>> GetAll(int id)
+    {
+        var pais = await this.unitOfWork.Paises.GetByIdAsync(id);
+        if(pais == null){
+            return NotFound();
+        }
+        return this._mapper.Map<PaisAllDataDto>(pais);
     }
 
     [HttpPost]
