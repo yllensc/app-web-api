@@ -1,4 +1,5 @@
 using API.Dtos;
+using API.Helpers;
 using AutoMapper;
 using Dominio.Entities;
 using Dominio.Interfaces;
@@ -7,6 +8,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace API.Controllers;
     [ApiVersion("1.0")]
     [ApiVersion("1.1")]
+    [ApiVersion("1.2")]
     public class PaisController : BaseApiController
 {
     private readonly IUnitOfWork unitOfWork;
@@ -52,6 +54,18 @@ namespace API.Controllers;
         var paises = await this.unitOfWork.Paises.GetAllAsync();
         return this._mapper.Map<List<PaisAllDataDto>>(paises);
     }
+
+    [HttpGet]
+    [MapToApiVersion("1.2")]
+    [ProducesResponseType(StatusCodes.Status200OK)]
+    [ProducesResponseType(StatusCodes.Status400BadRequest)]
+    public async Task<ActionResult<Pager<PaisAllDataDto>>> Get12([FromQuery] Params paisParams)
+    {
+        var pais = await unitOfWork.Paises.GetAllAsync(paisParams.PageIndex,paisParams.PageSize,paisParams.Search);
+        var lstPaisesDto = _mapper.Map<List<PaisAllDataDto>>(pais.registros);
+        return new Pager<PaisAllDataDto>(lstPaisesDto,pais.totalRegistros,paisParams.PageIndex,paisParams.PageSize,paisParams.Search);
+    }
+
 
     
     [HttpGet("{id}")]

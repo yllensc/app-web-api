@@ -136,3 +136,5 @@ C:\Users\APT01-61\Documents\app-web-api\API\obj\Debug\net7.0\API.genruntimeconfi
 C:\Users\APT01-61\Documents\app-web-api\API\obj\Debug\net7.0\ref\API.dll
 D:\DATOS DE USUARIO\Documents\Campus\c#\app-web-api\API\bin\Debug\net7.0\AutoMapper.dll
 D:\DATOS DE USUARIO\Documents\Campus\c#\app-web-api\API\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\APT01-61\Documents\app-web-api\API\bin\Debug\net7.0\AutoMapper.dll
+C:\Users\APT01-61\Documents\app-web-api\API\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll

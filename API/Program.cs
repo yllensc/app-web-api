@@ -23,7 +23,7 @@ builder.Services.AddAutoMapper(Assembly.GetEntryAssembly());
 builder.Services.AddDbContext<AppWebApiContext>(options =>
 {
     //string? ConnectionStrings = builder.Configuration.GetConnectionString("ConexMySqlHome");
-    string ConnectionStrings = builder.Configuration.GetConnectionString("ConexMySqlHome");
+    string ConnectionStrings = builder.Configuration.GetConnectionString("ConexMySqlCampus");
     options.UseMySql(ConnectionStrings, ServerVersion.AutoDetect(ConnectionStrings));
 });
 

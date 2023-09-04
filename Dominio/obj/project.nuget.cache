@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "mKSbea+Q0B5lIxaTvt4VlYQZEcAl7em2C9olHmFF+atbAuQas0A8uRgnXKTBjN3XDVz8mysBOcVq998+7lo9ug==",
+  "dgSpecHash": "S+CgAdvLn6qNIdHNoIis+4F50RrJQhfTCYuolYj7ZS7pz29iR0fTaGxW3kjHzs2BeYHFiIW069vrEZtoAuN4Pw==",
   "success": true,
-  "projectFilePath": "c:\\Users\\APT01-61\\Documents\\app-web-api\\Dominio\\Dominio.csproj",
+  "projectFilePath": "C:\\Users\\APT01-61\\Documents\\app-web-api\\Dominio\\Dominio.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\APT01-61\\.nuget\\packages\\fluentvalidation\\11.5.1\\fluentvalidation.11.5.1.nupkg.sha512",
     "C:\\Users\\APT01-61\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.3.0\\fluentvalidation.aspnetcore.11.3.0.nupkg.sha512",

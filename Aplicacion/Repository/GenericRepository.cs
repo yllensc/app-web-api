@@ -1,3 +1,4 @@
+using System.Linq;
 using System.Linq.Expressions;
 using Dominio.Entities;
 using Dominio.Interfaces;
@@ -29,10 +30,14 @@ namespace Aplicacion.Repository;
         return _context.Set<T>().Where(expression);
     }
 
-  /*   public IEnumerable<T> Find(Expression<Func<T, bool>> expression)
-    {
-        throw new NotImplementedException();
-    } */
+    public virtual async Task<(int totalRegistros, IEnumerable<T> registros)> GetAllAsync(int pageIndex, int pageSize, string _search){
+        var totalRegistros = await _context.Set<T>().CountAsync();
+        var registros = await _context.Set<T>()
+            .Skip((pageIndex -1)*pageSize)
+            .Take(pageSize)
+            .ToListAsync();
+        return (totalRegistros, registros);
+    }
  
     public virtual async Task<IEnumerable<T>> GetAllAsync()
     {
@@ -42,11 +47,6 @@ namespace Aplicacion.Repository;
     public virtual async Task<T> GetByIdAsync(int id)
     {
         return await _context.Set<T>().FindAsync(id);
-    }
-
-    public virtual Task<T> GetByIdAsync(string id)
-    {
-        throw new NotImplementedException();
     }
 
     public virtual void Remove(T entity)
