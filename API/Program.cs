@@ -1,3 +1,4 @@
+using System.Reflection;
 using API.Extensions;
 using Microsoft.EntityFrameworkCore;
 using Persistencia;
@@ -11,12 +12,14 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.ConfigureCors();
+builder.Services.AddAplicacionServices();
+builder.Services.AddAutoMapper(Assembly.GetEntryAssembly());
 
 //DBContext
 builder.Services.AddDbContext<AppWebApiContext>(options =>
 {
     //string? ConnectionStrings = builder.Configuration.GetConnectionString("ConexMySqlHome");
-    string? ConnectionStrings = builder.Configuration.GetConnectionString("ConexMySqlCampus");
+    string ConnectionStrings = builder.Configuration.GetConnectionString("ConexMySqlHome");
     options.UseMySql(ConnectionStrings, ServerVersion.AutoDetect(ConnectionStrings));
 });
 

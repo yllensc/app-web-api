@@ -1,3 +1,6 @@
+using Aplicacion.UnitOfWork;
+using Dominio.Interfaces;
+
 namespace API.Extensions;
 
     public static class ApplicationServiceExtension
@@ -11,10 +14,10 @@ namespace API.Extensions;
                 .AllowAnyHeader()); //WithHeader(*accept*, "content-type")
             });
 
-       /*  public static void AddAplicacionServices(this IServiceCollection services)
+         public static void AddAplicacionServices(this IServiceCollection services)
         {
             //services.AddScoped<IPais, PaisRepository>();
             //services.AddScoped<IRegion, RegionRepository>();
             services.AddScoped<IUnitOfWork, UnitOfWork>();
-        } */
+        } 
     }

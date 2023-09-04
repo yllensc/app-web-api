@@ -8,7 +8,8 @@ namespace Dominio.Interfaces
     public interface IUnitOfWork
     {
         IPais Paises { get; }
-        //IEstado Estados { get; }
+        IEstado Estados { get; }
+        IRegion Regiones {get;}
         Task<int> SaveAsync();
     }
 }

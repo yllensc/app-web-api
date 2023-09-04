@@ -16,14 +16,14 @@ namespace Aplicacion.Repository;
         public override async Task<IEnumerable<Pais>> GetAllAsync()
         {
             return await _context.Paises
-                .Include(p => p.Estados)//.ThenInclude(c => c.Regiones)
+                .Include(p => p.Estados).ThenInclude(c => c.Regiones)
                 .ToListAsync();
         }
 
         public override async Task<Pais> GetByIdAsync(int id)
         {
             return await _context.Paises
-            .Include(p => p.Estados)
+            .Include(p => p.Estados).ThenInclude(c => c.Regiones)
             .FirstOrDefaultAsync(p =>  p.Id == id);
         }
         }

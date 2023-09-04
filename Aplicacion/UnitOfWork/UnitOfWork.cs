@@ -12,7 +12,8 @@ namespace Aplicacion.UnitOfWork
     {
         private readonly AppWebApiContext context ;
         private PaisRepository _paises;
-        //private DepartamentoRepository _departamentos;
+        private EstadoRepository _estados;
+        private RegionRepository _regiones;
 
         public UnitOfWork(AppWebApiContext _context)
         {
@@ -26,6 +27,24 @@ namespace Aplicacion.UnitOfWork
                     _paises = new PaisRepository(context);
                 }
                 return _paises;
+            }
+        }
+
+        public IEstado Estados{
+            get{
+                if(_estados == null){
+                    _estados = new EstadoRepository(context);
+                }
+                return _estados;
+            }
+        }
+
+        public IRegion Regiones{
+            get{
+                if(_regiones == null){
+                    _regiones = new RegionRepository(context);
+                }
+                return _regiones;
             }
         }
 
