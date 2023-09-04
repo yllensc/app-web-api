@@ -2,6 +2,8 @@ using System.Reflection;
 using API.Extensions;
 using Microsoft.EntityFrameworkCore;
 using Persistencia;
+using AspNetCoreRateLimit;
+
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -13,6 +15,8 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.ConfigureCors();
 builder.Services.AddAplicacionServices();
+builder.Services.ConfigureRatelimiting();
+builder.Services.ConfigureApiVersioning();
 builder.Services.AddAutoMapper(Assembly.GetEntryAssembly());
 
 //DBContext
